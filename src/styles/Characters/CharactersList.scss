@@ -1,0 +1,21 @@
+
+.characters-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border: 2px solid gold;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
