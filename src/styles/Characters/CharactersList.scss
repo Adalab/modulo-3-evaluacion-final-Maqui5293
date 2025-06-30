@@ -1,9 +1,10 @@
 
+
 .characters-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
 }
 
 .card {
@@ -18,4 +19,14 @@
 .card img {
   width: 100%;
   border-radius: 8px;
+}
+
+.no-results {
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 2rem;
 }

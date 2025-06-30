@@ -21,7 +21,7 @@ function CharactersDetail({ characters }) {
 
   return (
     <div className="detail">
-      <img src={character.image} alt={character.name} />
+      <img src={character.image || 'https://placecats.com/300/400'} alt={character.name} onError={(e) => e.target.src = 'https://placecats.com/300/400'} />
       <div className="detail-info">
         <h2>{character.name}</h2>
         <p><strong>Casa:</strong> {character.house || 'Sin casa'}</p>

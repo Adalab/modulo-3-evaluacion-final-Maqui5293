@@ -1,5 +1,6 @@
 import '../../styles/Filters/Filters.scss';
 
+
 function Filters({ search, setSearch, house, setHouse, gender, setGender }) {
   const handleSubmit = (e) => e.preventDefault();
 

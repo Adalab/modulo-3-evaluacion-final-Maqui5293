@@ -1,4 +1,4 @@
-import Logohp from '../../images/images.jpg';
+import Logohp from '../../images/harry-potter.png';
 import '../../styles/Layout/Header.scss';
 function Header() {
 
